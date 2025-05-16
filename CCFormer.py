@@ -504,7 +504,7 @@ class Up_Attention(nn.Module):
 
         return attn_output
         
-class CCFormer_light_new(nn.Module):
+class CCFormer(nn.Module):
     def __init__(
         self,
         spatial_dims: int = 3,
